@@ -3,15 +3,15 @@
 function randomnize(){
   let result = Math.random()
     if (result < 0.25){
-     return "A";
+     return "$";
    }else if (result < 0.50){
-      return "B"
+      return "&"
     }else if (result < 0.75){
-      return "C"
+      return "+"
     }else if (result < 0.80){
-      return "D"
+      return "#"
     }else if (result < 1){
-      return "E"
+      return "?"
     }
 }
 //document.getElementById Win allows us to have an element on the page that will change and show us that the balance or the value of the function has changed
